@@ -1,0 +1,96 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/Sansation_Bold_Italic.ttf);
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14pt;
+}
+
+.navbar{
+    background-color: rgba(98, 97, 97, 0.8);
+    display: flex;
+}
+
+.navbar a{
+    color: #ffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 20px;
+}
+
+.navbar a:hover {
+    background-color: #cccc;
+    color: rgb(0, 0, 0);
+}
+
+.font_header {
+    font-family: myFirstFont;
+    color: rgb(0, 0, 0);
+    font-size: 30pt;
+}
+
+.header{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background: #1abc9c;
+    z-index: 2;
+}
+
+.row {  
+    margin-top: 95px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side{
+    flex: 30%;
+    background-color: rosybrown;
+    padding: 20px;
+}
+
+.main{
+    flex: 70%;
+    background-color: saddlebrown;
+    padding: 20px;
+}
+
+.main .img {
+    display: flex;
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-right: 40px;
+}
+
+.zindex{
+    clear: left;
+    position: relative;
+}
+
+.topleft {
+    position: absolute;
+    top: 20px;
+    left: 6px;
+    font-size: 18px;
+  }
+
+.side .text_scroll {
+    background-color: rgb(194, 190, 190);
+    width: 150px;
+    height: 200px;
+    border: 1px dotted black;
+    overflow: scroll;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(29, 28, 28);
+    color: #ffff;
+}
