@@ -2,7 +2,7 @@ let product = ['ti vi', 'tu lanh','may giat','may hut bui'];
 let _array = [1.003, 2.542, 3.132, 4.532, 5.032];
 let names = ['teo','ti','hai','teo','hai','teo'];
 
-//includes
+//includes//
 console.log('Result check element in array: ' + product.includes('tu lanh'));
 //isArray
 console.log('Result check  array: ' +Array.isArray(product));
